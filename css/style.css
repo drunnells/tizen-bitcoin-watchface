@@ -1,0 +1,139 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-color: #02051c;
+    background-image: url("../image/face.png");
+}
+
+#components-main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#clock {
+    position: absolute;
+	top: 33px;
+	left: 32px;
+	width: 215px;
+	height: 215px;
+}
+
+#hand-main-hour {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 15px;
+    height: 215px;
+    background-image: url("../image/hand_h.png");
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+#hand-main-minute {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 15px;
+    height: 215px;
+    background-image: url("../image/hand_m.png");
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+#hand-main-second {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 15px;
+    height: 215px;
+    background-image: url("../image/hand_s.png");
+    background-position: center ;  
+	background-repeat: no-repeat;
+}
+
+#bat{
+	position: absolute;
+	left: 265px;
+    top: 163px;
+    width: 72px;
+    height: 22px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#total-step{
+	position: absolute;
+	left: 246px;
+    top: 85px;
+    width: 72px;
+    height: 22px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#heart{
+	position: absolute;
+	left: 265px;
+    top: 123px;
+    width: 72px;
+    height: 22px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#time{
+	position: absolute;
+	left: 245px;
+    top: 196px;
+    width: 88px;
+    height: 33px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#btc{
+	position: absolute;
+	left: 66px;
+    top: 268px;
+    width: 226px;
+    height: 35px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+#date{
+	position: absolute;
+	left: 118px;
+    top: 308px;
+    width: 122px;
+    height: 24px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}

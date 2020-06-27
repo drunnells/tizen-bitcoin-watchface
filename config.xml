@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://com.dustinrunnells.bitcoinwatchface" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="SlxFa5T4CV.BitcoinWatchFace" package="SlxFa5T4CV" required_version="4.0"/>
+    <author email="dustin@runnells.name">Dustin Runnells</author>
+    <tizen:category name="http://tizen.org/category/wearable_clock"/>
+    <content src="index.html"/>
+    <description>The Bitcoin Watch Face displays the current bitcoin price in your local currency along with the time, date, watch battery percentage, daily step count and heart rate. The bitcoin price is retrieved once per minute and the local currency can be changed by tapping on the price box. Tapping the step count or heart rate will open S-Health. Tapping the date will open the watch calendar.
+
+Notes:
+* Bitcoin prices are retrieved from blockchain.info.
+* The daily step count is calculated by this app, not S-Health and reset daily. It will be empty when first installed.</description>
+    <feature name="http://tizen.org/feature/screen.shape.circle"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/sensor.pedometer"/>
+    <feature name="http://tizen.org/feature/humanactivitymonitor"/>
+    <icon src="icon.png"/>
+    <name>Bitcoin Watch Face</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/system"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
