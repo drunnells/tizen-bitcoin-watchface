@@ -15,3 +15,7 @@ Not currently published in the Samsung Galaxy Store - I am not an approved desig
   - The daily step count is calculated by this app, not S-Health and reset daily. It will be empty when first installed.
   - Tap the BPM box to open SHealth
   - Tap the Bitcoin price to change currency (Default USD)
+
+### Installation
+Until this watchface is available in the Galaxy Store, the .wgt file in the root of this project can be installed by following the instructions here:
+https://www.reddit.com/r/GearS3/comments/aljplu/tutorial_how_to_install_tpks_and_wgts_onto_your/
